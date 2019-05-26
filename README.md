@@ -34,7 +34,8 @@
 6. Install the required Python packages with `pip install -r requirements.txt
 
 *Note: ARES software not included within repo due to private nature*
-*Note: Training datasets not included within repo due to large size, however samples are available in * 
+
+*Note: Training datasets not included within repo due to large size, however samples are available [here](https://github.com/gerkenma/Position-Detection/tree/master/training_data_generation/picture_examples).* 
 
 ## Training
 
