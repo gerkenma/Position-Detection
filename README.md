@@ -25,7 +25,7 @@
 
 ## Set up
 
-1. ARES installed to Raspberry Pi Zero via [install guide](http://git.cs.slu.edu/courses/fall18/capstone/attitude/blob/master/ares/docs/ARES_Installation_guide.docx).
+1. ~ARES installed to Raspberry Pi Zero via [install guide](https://github.com/gerkenma/Position-Detection).~
 2. Install [Python](https://www.python.org/downloads/)
 3. If not installed, install Virtualenv with `pip install virtualenv`
 4. Navigate in a terminal window to the root directory of the project and set up a virtual environment with `virtualenv venv`
@@ -33,9 +33,12 @@
 	- *More complete directions can be found [here](https://virtualenv.pypa.io/en/stable/userguide/#activate-script)*
 6. Install the required Python packages with `pip install -r requirements.txt
 
+*Note: ARES software not included within repo due to private nature*
+*Note: Training datasets not included within repo due to large size, however samples are available in * 
+
 ## Training
 
-Training data generated from Unity simulation. The program [cnn_classifier.py](http://git.cs.slu.edu/courses/fall18/capstone/attitude/blob/master/cnn_files/cnn_classifier.py) should be trained on external hardware, not the Raspberry Pi. Datasets may be created by pointing appropriate datapath to a directory containing subdirectories of all possible classifications. All images inside each subdirectory is assumed to belong to that classification label. All training automatically completes with an evalation of a percentage of the data and outputs the results to the file [cnn_results.csv](http://git.cs.slu.edu/courses/fall18/capstone/attitude/blob/master/cnn_files/cnn_results.csv).
+Training data generated from Unity simulation. The program [cnn_classifier.py](https://github.com/gerkenma/Position-Detection/blob/master/cnn_files/cnn_classifier.py) should be trained on external hardware, not the Raspberry Pi. Datasets may be created by pointing appropriate datapath to a directory containing subdirectories of all possible classifications. All images inside each subdirectory is assumed to belong to that classification label. All training automatically completes with an evalation of a percentage of the data and outputs the results to the file [cnn_results.csv](https://github.com/gerkenma/Position-Detection/blob/master/cnn_files/cnn_results.csv).
 
 ## Porting Trained Neural Network to Raspberry Pi Zero
 
