@@ -19,7 +19,7 @@
 
 ## Requirements
 - Python 2.6+
-- TensorFlow 1.11.x
+- TensorFlow 1.13.x
 - Numpy 1.15.x
 - ARES 1.3
 
