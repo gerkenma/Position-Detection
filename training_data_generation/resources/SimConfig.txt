@@ -1,0 +1,3 @@
+Spin speed: 28.6
+Orbit speed: 5
+Take photos: No

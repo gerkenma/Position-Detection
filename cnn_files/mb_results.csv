@@ -1,0 +1,16 @@
+Trial 000
+kernel_initializer, <class 'tensorflow.python.ops.init_ops.Ones'>
+conv1_filters, 108
+conv2_kernel, 4
+learning_rate, 0.019000000000000003
+conv1_kernel, 3
+conv2_filters, 76
+units, 512
+dropout, 0.30000000000000004
+activation, <function leaky_relu at 0x7f2c2d81a050>
+--------
+loss, 1.4424771
+global_step, 1098
+accuracy, 0.44711512
+run_time, 5782.31662393
+
