@@ -25,7 +25,7 @@
 
 ## Set up
 
-1. ~ARES installed to Raspberry Pi Zero via [install guide](https://github.com/gerkenma/Position-Detection).~
+1. ~ARES installed to Raspberry Pi Zero via [install guide](https://github.com/gerkenma/Position-Detection).~ (ARES removed from public facing git repository)
 2. Install [Python](https://www.python.org/downloads/)
 3. If not installed, install Virtualenv with `pip install virtualenv`
 4. Navigate in a terminal window to the root directory of the project and set up a virtual environment with `virtualenv venv`
